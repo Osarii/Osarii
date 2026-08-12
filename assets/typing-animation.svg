@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="84" viewBox="0 0 1000 84">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="84" fill="transparent"/>
+  <text x="45" y="51"
+        font-family="Consolas, Monaco, monospace"
+        font-size="28"
+        font-weight="700"
+        fill="#58A6FF"
+        filter="url(#glow)">&gt;</text>
+
+  <g font-family="Consolas, Monaco, monospace"
+     font-size="25"
+     font-weight="600"
+     fill="#E6EDF3">
+
+    <text x="78" y="51" opacity="0">Full Stack Developer
+      <animate attributeName="opacity"
+               values="0;1;1;0;0"
+               keyTimes="0;0.03;0.22;0.25;1"
+               dur="12s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="78" y="51" opacity="0">React • TypeScript • .NET • REST APIs
+      <animate attributeName="opacity"
+               values="0;0;1;1;0;0"
+               keyTimes="0;0.25;0.28;0.47;0.50;1"
+               dur="12s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="78" y="51" opacity="0">Building Enterprise &amp; Data-Driven Software
+      <animate attributeName="opacity"
+               values="0;0;1;1;0;0"
+               keyTimes="0;0.50;0.53;0.72;0.75;1"
+               dur="12s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="78" y="51" opacity="0">Turning Ideas Into Real Software
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.75;0.78;0.97;1"
+               dur="12s"
+               repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <rect x="692" y="30" width="3" height="28" rx="1" fill="#58A6FF">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="0.9s"
+             repeatCount="indefinite"/>
+  </rect>
+</svg>
