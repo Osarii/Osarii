@@ -128,7 +128,7 @@ GitHub Analytics
 
 </div>
 
-Development Philosophy
+
 
 I see every project as an opportunity to strengthen both technical skills and problem-solving ability. My goal is to keep building software that is useful, maintainable and increasingly closer to real-world production standards.
 
