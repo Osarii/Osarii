@@ -64,7 +64,7 @@ React TypeScript Vite Data Processing Analytics
 
 Status: Active development
 
-🧟 Zombie Outbreak: Containment
+ Zombie Outbreak: Containment
 
 Survival shooter built with HTML, CSS and vanilla JavaScript.
 
