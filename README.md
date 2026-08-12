@@ -1,4 +1,4 @@
-div align="center">
+<div align="center">
 
 <img src="./assets/banner-osarii.png" width="100%" alt="Osarii — Full Stack Developer" />
 
@@ -96,7 +96,7 @@ A business-oriented application designed to compare, reconcile and analyze infor
 <tr>
 <td width="100%">
 
-<h3> NEXUS — Tech E-Commerce & Admin Platform</h3>
+<h3>🛒 NEXUS — Tech E-Commerce & Admin Platform</h3>
 
 <b>Collaborative technology e-commerce and business administration platform with AI-assisted shopping tools.</b>
 
@@ -219,7 +219,7 @@ Focused on organizing expense information, generating summaries and visualizatio
 <tr>
 <td width="100%">
 
-<h3>🔧 TaskFlow — Git & Pull Request Practice</h3>
+<h3> TaskFlow — Git & Pull Request Practice</h3>
 
 <b>Project focused on structured Git workflows and collaborative source control practices.</b>
 
@@ -295,6 +295,10 @@ GitHub Analytics
 <img width="47%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Osarii&theme=github_dark&utcOffset=-6&animation=load&duration=4" alt="Productive time" />
 
 </div>
+
+Development Philosophy
+
+Build it. Test it. Improve it. Document it.
 
 I see every project as an opportunity to strengthen both technical skills and problem-solving ability. My goal is to keep building software that is useful, maintainable and increasingly closer to real-world production standards.
 
