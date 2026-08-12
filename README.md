@@ -54,7 +54,7 @@ Tools
 
 Featured Projects
 
-🔄 Enterprise Data Reconciliation Platform
+ Enterprise Data Reconciliation Platform
 
 Enterprise-focused platform for comparing and reconciling information between different data sources.
 
@@ -72,13 +72,13 @@ Wave-based combat, multiple weapons, progression, upgrades, bosses, game modes, 
 
 JavaScript HTML CSS Game Development
 
-📊 AI Financial Solution
+ AI Financial Solution
 
 Collaborative project focused on processing financial expense data and generating business-oriented reports.
 
 JavaScript HTML CSS Data Visualization AI-Assisted Development
 
-🔧 TaskFlow — Git & Pull Request Practice
+ TaskFlow — Git & Pull Request Practice
 
 Project focused on structured Git workflows, branches, commits and pull requests.
 
