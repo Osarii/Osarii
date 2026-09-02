@@ -96,7 +96,7 @@ A business-oriented application designed to compare, reconcile and analyze infor
 <tr>
 <td width="100%">
 
-<h3>🛒 NEXUS — Tech E-Commerce & Admin Platform</h3>
+<h3> NEXUS — Tech E-Commerce & Admin Platform</h3>
 
 <b>Collaborative technology e-commerce and business administration platform with AI-assisted shopping tools.</b>
 
