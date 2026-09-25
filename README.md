@@ -3,26 +3,36 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.svg">
-  <img src="assets/profile-banner-dark.svg" width="100%" alt="The Osarii Archive: Jared Prendas, Full-Stack Developer in Costa Rica, beneath an eclipsed sky and ruined cathedral">
+  <img src="assets/profile-banner-dark.svg" width="100%" alt="Osarii — Full-Stack Developer in Costa Rica; an original gothic archive and engineering profile">
 </picture>
+
+<br>
+
+<sub>Building interfaces, systems, automation, and interactive experiences.</sub>
 
 </div>
 
-## Jared Prendas
+---
 
-I'm **Osarii** (Jared Prendas), a **Full-Stack Developer** and Computer Engineering student in Costa Rica. I like taking an idea all the way to a working product: shaping the interface, building the logic behind it, connecting data, and refining the details people actually use.
+## About
 
-My work moves between modern web apps, data systems, automation, AI integrations, security interfaces, and interactive 3D experiences.
+I'm **Osarii**, a Full-Stack Developer and Computer Engineering student in Costa Rica. I build web applications from interface to data flow, with a focus on software that works well and feels considered.
+
+- Building with **React, TypeScript, C# and .NET**
+- Exploring **automation, AI integrations, data systems and 3D web**
+- Caring about **architecture, testing, responsiveness and visual quality**
 
 ## Tools of the Craft
 
-**Interfaces** &nbsp; React · TypeScript · JavaScript · HTML · CSS · Vite · Tailwind CSS
+<div align="center">
 
-**Applications & data** &nbsp; C# · .NET · Node.js · Python · PHP · Laravel · SQL · PostgreSQL · Supabase
+<img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind,html,css,cs,dotnet,python,postgres,git,github,vscode&perline=7" alt="React, TypeScript, JavaScript, Vite, Tailwind CSS, HTML, CSS, C sharp, .NET, Python, PostgreSQL, Git, GitHub and VS Code">
 
-**Interactive web** &nbsp; Three.js · React Three Fiber · Rapier · Zustand
+<br>
 
-**Workflow & quality** &nbsp; Git · GitHub · VS Code · Visual Studio · Playwright · Vitest · JSON Server · n8n · webhooks · AI integrations
+<sub>Also working with Node.js · PHP · Laravel · Supabase · Three.js · React Three Fiber · Rapier · Zustand · Playwright · Vitest · JSON Server · n8n · webhooks</sub>
+
+</div>
 
 ## Selected Work
 
@@ -59,7 +69,7 @@ My work moves between modern web apps, data systems, automation, AI integrations
 
 ## Current Focus
 
-Cybersecurity interfaces · Data-driven business systems · Workflow automation · AI integrations · Interactive 3D web · Software architecture · Testing and visual quality
+Cybersecurity interfaces · Data-driven business systems · Workflow automation · AI integrations · Interactive 3D web
 
 ## GitHub Signals
 
@@ -77,5 +87,5 @@ Cybersecurity interfaces · Data-driven business systems · Workflow automation 
 
 <div align="center">
 <sub>BUILD · TEST · AUTOMATE · ITERATE</sub><br>
-<sub>THE OSARII ARCHIVE · <a href="https://github.com/Osarii">@Osarii</a></sub>
+<sub><a href="https://github.com/Osarii">@Osarii</a></sub>
 </div>
