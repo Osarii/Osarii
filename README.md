@@ -18,7 +18,7 @@
 
 ## About
 
-Hi, I'm **Jared Prendas** — a Full-Stack Developer and Computer Engineering student from Costa Rica. I turn ideas into working software: modern web applications, data-driven systems, automation workflows, and interactive experiences.
+Hi, I'm **Osarii** — a Full-Stack Developer and Computer Engineering student from Costa Rica. I turn ideas into working software: modern web applications, data-driven systems, automation workflows, and interactive experiences.
 
 My current work spans frontend engineering, application architecture, AI-assisted development, automation, data systems, and experimental 3D interfaces.
 
