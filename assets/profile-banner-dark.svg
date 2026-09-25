@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">The Osarii Archive at night</title>
+  <desc id="desc">A restrained dark fantasy landscape with an eclipsed moon, ruined gothic towers, mountains, fog, and Jared Prendas's developer identity.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#070708"/><stop offset=".7" stop-color="#17171c"/><stop offset="1" stop-color="#0d0d10"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#d8d2c4" stop-opacity=".54"/><stop offset=".55" stop-color="#9da3ad" stop-opacity=".13"/><stop offset="1" stop-color="#66717c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grain" width="23" height="19" patternUnits="userSpaceOnUse">
+      <path d="M2 3h1M15 7h1M8 16h1M21 13h1" stroke="#d8d2c4" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="frame"><rect x="14" y="14" width="1172" height="292" rx="2"/></clipPath>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#grain)" opacity=".45"/>
+    <circle cx="905" cy="114" r="108" fill="url(#halo)"/>
+    <circle cx="905" cy="114" r="61" fill="#b9ac91" opacity=".88"/>
+    <circle cx="887" cy="99" r="61" fill="#0b0b0d"/>
+    <path d="M0 226 96 157l45 32 92-78 91 78 94-47 105 81 89-63 81 60 80-78 65 62 68-45 99 67 95-35v129H0Z" fill="#111116" stroke="#292930"/>
+    <path d="m0 251 126-48 82 33 93-45 128 51 86-28 118 45 91-37 110 39 106-46 134 42 126-41v104H0Z" fill="#0a0a0c" stroke="#17171c"/>
+    <g fill="#09090b" stroke="#55545b" stroke-width="1.2">
+      <path d="M826 251V134h28V94l14-22 14 22v40h25v117Z"/>
+      <path d="M910 251V155h22v-36l12-18 12 18v36h27v96Z"/>
+      <path d="M866 251v-72h57v72Z"/>
+      <path d="M805 251v-63h27v63ZM979 251v-77h30v77Z"/>
+    </g>
+    <g fill="#6e1f27" opacity=".55">
+      <path d="M864 119h8v22h-8zM940 145h8v19h-8z"/>
+    </g>
+    <path d="M770 251h264M789 258h226" stroke="#55545b" stroke-opacity=".5"/>
+    <path d="M640 255c105-30 182 15 275-8s189-9 285 9v49H560c10-20 35-37 80-50Z" fill="#66717c" opacity=".13"/>
+    <path d="M0 271c180-35 298 24 455-2s267-16 390 12 247-17 355-5" fill="none" stroke="#9da3ad" stroke-opacity=".18" stroke-width="18"/>
+  </g>
+  <g fill="#d8d2c4">
+    <text x="74" y="74" font-family="Georgia,'Times New Roman',serif" font-size="13" letter-spacing="5" fill="#9da3ad">THE OSARII ARCHIVE</text>
+    <text x="70" y="151" font-family="Georgia,'Times New Roman',serif" font-size="64" letter-spacing="9">OSARII</text>
+    <path d="M73 170h435" stroke="#6e1f27" stroke-width="2"/><path d="M74 177h294" stroke="#55545b"/>
+    <text x="74" y="207" font-family="Georgia,'Times New Roman',serif" font-size="21" letter-spacing="4">JARED PRENDAS</text>
+    <text x="74" y="235" font-family="Consolas,Monaco,'Courier New',monospace" font-size="14" letter-spacing="2" fill="#9da3ad">FULL-STACK DEVELOPER · COSTA RICA</text>
+    <text x="74" y="271" font-family="Consolas,Monaco,'Courier New',monospace" font-size="13" fill="#66717c">jared@osarii:~$ ./build_the_unknown</text>
+  </g>
+  <g font-family="Consolas,Monaco,'Courier New',monospace" font-size="10" fill="#9da3ad">
+    <text x="1011" y="56">SYSTEM STATUS</text><circle cx="1129" cy="52" r="4" fill="#6e1f27"/>
+    <text x="1011" y="75" fill="#66717c">BUILDING // 01</text>
+  </g>
+  <g fill="none" stroke="#55545b">
+    <rect x="14" y="14" width="1172" height="292" rx="2"/>
+    <path d="M14 43h25V14M1161 14v29h25M14 277h25v29M1161 306v-29h25" stroke="#b9ac91"/>
+    <path d="M44 29h255M901 29h255M44 291h255M901 291h255" stroke-dasharray="1 6"/>
+    <path d="m30 160 8-8 8 8-8 8Zm1124 0 8-8 8 8-8 8Z" fill="#6e1f27" stroke="#6e1f27"/>
+  </g>
+</svg>

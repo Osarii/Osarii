@@ -1,64 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="84" viewBox="0 0 1000 84">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="78" viewBox="0 0 1000 78" role="img" aria-labelledby="title desc">
+  <title id="title">Osarii developer identity</title>
+  <desc id="desc">Animated terminal lines describing Jared Prendas's engineering work.</desc>
   <defs>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <clipPath id="type1"><rect x="220" y="25" width="0" height="30"><animate attributeName="width" values="0;650;650;0;0" keyTimes="0;.2;.23;.25;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type2"><rect x="220" y="25" width="0" height="30"><animate attributeName="width" values="0;0;650;650;0;0" keyTimes="0;.25;.45;.48;.5;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type3"><rect x="220" y="25" width="0" height="30"><animate attributeName="width" values="0;0;650;650;0;0" keyTimes="0;.5;.7;.73;.75;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type4"><rect x="220" y="25" width="0" height="30"><animate attributeName="width" values="0;0;650;650;0" keyTimes="0;.75;.95;.98;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
-
-  <rect width="1000" height="84" fill="transparent"/>
-  <text x="45" y="51"
-        font-family="Consolas, Monaco, monospace"
-        font-size="28"
-        font-weight="700"
-        fill="#58A6FF"
-        filter="url(#glow)">&gt;</text>
-
-  <g font-family="Consolas, Monaco, monospace"
-     font-size="25"
-     font-weight="600"
-     fill="#E6EDF3">
-
-    <text x="78" y="51" opacity="0">Full Stack Developer
-      <animate attributeName="opacity"
-               values="0;1;1;0;0"
-               keyTimes="0;0.03;0.22;0.25;1"
-               dur="12s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <text x="78" y="51" opacity="0">React • TypeScript • .NET • REST APIs
-      <animate attributeName="opacity"
-               values="0;0;1;1;0;0"
-               keyTimes="0;0.25;0.28;0.47;0.50;1"
-               dur="12s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <text x="78" y="51" opacity="0">Building Enterprise &amp; Data-Driven Software
-      <animate attributeName="opacity"
-               values="0;0;1;1;0;0"
-               keyTimes="0;0.50;0.53;0.72;0.75;1"
-               dur="12s"
-               repeatCount="indefinite"/>
-    </text>
-
-    <text x="78" y="51" opacity="0">Turning Ideas Into Real Software
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.75;0.78;0.97;1"
-               dur="12s"
-               repeatCount="indefinite"/>
-    </text>
+  <rect x="1" y="1" width="998" height="76" rx="4" fill="#0d0d10" stroke="#292930"/>
+  <path d="M18 15h964M18 63h964" stroke="#292930" stroke-dasharray="2 7"/>
+  <text x="30" y="48" font-family="Consolas,Monaco,'Courier New',monospace" font-size="19" fill="#6e1f27">jared@osarii:~$</text>
+  <g font-family="Consolas,Monaco,'Courier New',monospace" font-size="19" fill="#d8d2c4">
+    <text x="220" y="48" clip-path="url(#type1)">whoami → Jared Prendas · Full-Stack Developer</text>
+    <text x="220" y="48" clip-path="url(#type2)">build interfaces · systems · interactive worlds</text>
+    <text x="220" y="48" clip-path="url(#type3)">React · TypeScript · .NET · automation</text>
+    <text x="220" y="48" clip-path="url(#type4)">software · data · AI · 3D web</text>
   </g>
-
-  <rect x="692" y="30" width="3" height="28" rx="1" fill="#58A6FF">
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="0.9s"
-             repeatCount="indefinite"/>
+  <rect x="948" y="29" width="2" height="24" fill="#9da3ad">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>
