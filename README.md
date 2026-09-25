@@ -3,95 +3,72 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.svg">
-  <img src="assets/profile-banner-dark.svg" width="100%" alt="The Osarii Archive — Jared Prendas, Full-Stack Developer in Costa Rica">
+  <img src="assets/profile-banner-dark.svg" width="100%" alt="The Osarii Archive: Jared Prendas, Full-Stack Developer in Costa Rica, beneath an eclipsed sky and ruined cathedral">
 </picture>
-
-<br>
-
-<img src="assets/typing-animation.svg" width="92%" alt="Jared Prendas — Full-Stack Developer; building interfaces, systems, automation, and interactive worlds">
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Osarii&style=flat-square&color=6e1f27&label=archive+visits" alt="Profile views">
 
 </div>
 
-## About
+## Jared Prendas
 
-Hi, I'm **Osarii** — a Full-Stack Developer and Computer Engineering student from Costa Rica. I turn ideas into working software: modern web applications, data-driven systems, automation workflows, and interactive experiences.
+I'm **Osarii** (Jared Prendas), a **Full-Stack Developer** and Computer Engineering student in Costa Rica. I like taking an idea all the way to a working product: shaping the interface, building the logic behind it, connecting data, and refining the details people actually use.
 
-My current work spans frontend engineering, application architecture, AI-assisted development, automation, data systems, and experimental 3D interfaces.
+My work moves between modern web apps, data systems, automation, AI integrations, security interfaces, and interactive 3D experiences.
 
 ## Tools of the Craft
 
-<div align="center">
+**Interfaces** &nbsp; React · TypeScript · JavaScript · HTML · CSS · Vite · Tailwind CSS
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind&perline=7" alt="Frontend: HTML, CSS, JavaScript, TypeScript, React, Vite, and Tailwind CSS">
+**Applications & data** &nbsp; C# · .NET · Node.js · Python · PHP · Laravel · SQL · PostgreSQL · Supabase
 
-<br>
+**Interactive web** &nbsp; Three.js · React Three Fiber · Rapier · Zustand
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,python,php,laravel,postgres,supabase&perline=8" alt="Application and data: C sharp, .NET, Node.js, Python, PHP, Laravel, PostgreSQL, and Supabase">
+**Workflow & quality** &nbsp; Git · GitHub · VS Code · Visual Studio · Playwright · Vitest · JSON Server · n8n · webhooks · AI integrations
 
-<br>
-
-<img src="https://skillicons.dev/icons?i=threejs,git,github,vscode,visualstudio,vitest&perline=6" alt="3D and tooling: Three.js, Git, GitHub, VS Code, Visual Studio, and Vitest">
-
-<sub>React Three Fiber · Rapier · Zustand · SQL · JSON Server · n8n · Gemini API · Webhooks · Playwright</sub>
-
-</div>
-
-## Engineering Domains
+## Selected Work
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/focus-radar-light.svg">
-  <img src="assets/focus-radar-dark.svg" width="100%" alt="Current engineering focus across frontend, backend, data and SQL, automation, testing, and AI tooling">
-</picture>
-
+<td width="50%" valign="top">
+<sub>01 / SECURITY INTERFACES</sub>
+<h3><a href="https://github.com/Osarii/Cyb3r_Soc">CYB3R_SOC ↗</a></h3>
+<p>A responsive security operations interface for simulated threat monitoring, incident workflows, and DDoS mitigation.</p>
+<sub>React · TypeScript · Three.js · Recharts · Playwright</sub>
 </td>
-<td width="50%" align="center" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stack-radar-light.svg">
-  <img src="assets/stack-radar-dark.svg" width="100%" alt="Current engineering mix across React and TypeScript, JavaScript, C sharp and .NET, Python, SQL, and 3D web">
-</picture>
-
+<td width="50%" valign="top">
+<sub>02 / INTERACTIVE SYSTEMS</sub>
+<h3><a href="https://github.com/Osarii/BOKAGEDDON">BONKAGEDDON ↗</a></h3>
+<p>A 3D survivor-like browser game with physics combat, procedural audio, local scores, and optional run telemetry.</p>
+<sub>React 19 · TypeScript · React Three Fiber · Rapier · Zustand</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>03 / DATA SYSTEMS</sub>
+<h3><a href="https://github.com/Osarii/enterprise-data-reconciliation">Enterprise Data Reconciliation ↗</a></h3>
+<p>An ERP/CRM CSV reconciliation workflow for field mapping, data quality, exception review, analytics, and reports.</p>
+<sub>React · TypeScript · Material UI · Vitest</sub>
+</td>
+<td width="50%" valign="top">
+<sub>04 / WORK IN PROGRESS</sub>
+<h3><a href="https://github.com/Osarii/decisionops-inventory-dss">DecisionOps Inventory DSS ↗</a></h3>
+<p>An early React foundation for inventory decision support, with routing and mock stock data. Risk analysis is planned.</p>
+<sub>React · Vite · React Router · JSON Server</sub>
 </td>
 </tr>
 </table>
 
-<p align="center"><sub>Directional snapshots of current engineering focus—not objective proficiency scores.</sub></p>
+## Current Focus
 
-## Featured Work
+Cybersecurity interfaces · Data-driven business systems · Workflow automation · AI integrations · Interactive 3D web · Software architecture · Testing and visual quality
 
-| | Project | What it builds | Core technologies |
-|:--:|---|---|---|
-| I | **[CYB3R_SOC](https://github.com/Osarii/Cyb3r_Soc)** | A responsive security-operations interface for simulated threat monitoring, incident workflows, DDoS mitigation, and data-rich dashboards. | React · TypeScript · Three.js · Recharts · Zustand · Playwright |
-| II | **[BONKAGEDDON](https://github.com/Osarii/BOKAGEDDON)** | A 3D survivor-like browser game with physics-based combat, procedural audio, persisted scores, and optional run telemetry. | React 19 · TypeScript · React Three Fiber · Rapier · Zustand · JSON Server · n8n |
-| III | **[Enterprise Data Reconciliation](https://github.com/Osarii/enterprise-data-reconciliation)** | An ERP/CRM CSV reconciliation workflow with field mapping, validation, exception review, analytics, history, and reports. | React · TypeScript · Material UI · Vitest · NestJS · PostgreSQL · Prisma |
-| IV | **[DecisionOps Inventory DSS](https://github.com/Osarii/decisionops-inventory-dss)** | An early-stage inventory decision-support foundation with routing and mock stock data, built toward risk and reorder analysis. | React · Vite · React Router · JSON Server |
-
-## Current Expeditions
-
-- Cybersecurity interfaces and threat visualization
-- Data-driven business systems and software architecture
-- Workflow automation, webhooks, and AI integrations
-- Interactive and 3D web experiences
-- Testing, responsiveness, and visual quality
-
-## Archive Signals
+## GitHub Signals
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Osarii&theme=github_dark">
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Osarii&theme=github">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Osarii&theme=github_dark" width="96%" alt="Osarii GitHub activity summary">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Osarii&theme=github_dark" width="90%" alt="Osarii GitHub activity summary">
 </picture>
 
 </div>
@@ -99,9 +76,6 @@ My current work spans frontend engineering, application architecture, AI-assiste
 ---
 
 <div align="center">
-
 <sub>BUILD · TEST · AUTOMATE · ITERATE</sub><br>
-<sub>──────── ◇ ────────</sub><br>
-<sub>THE OSARII ARCHIVE · @Osarii</sub>
-
+<sub>THE OSARII ARCHIVE · <a href="https://github.com/Osarii">@Osarii</a></sub>
 </div>
