@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-labelledby="t d">
+  <title id="t">How I build with AI agents</title>
+  <desc id="d">A pipeline from scope to ship: scope, plan, build, verify, review and ship, with a pulse moving through each stage.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="0.5" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#db2777"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .track { stroke: #e2e8f0; stroke-width: 4; stroke-linecap: round; }
+    .run { stroke: url(#accent); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: run 9s cubic-bezier(.6,.05,.3,1) infinite; }
+    @keyframes run { 0% { stroke-dashoffset: 1000; opacity: 1; } 80% { stroke-dashoffset: 0; opacity: 1; } 95%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+    .stage { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+    .on { fill: none; stroke: url(#accent); stroke-width: 3; opacity: 0; animation: light 9s infinite; }
+    @keyframes light { 0% { opacity: 0; } 4%, 85% { opacity: 1; } 95%, 100% { opacity: 0; } }
+    .s1 .on { animation-delay: 0s; } .s2 .on { animation-delay: 1.45s; } .s3 .on { animation-delay: 2.9s; }
+    .s4 .on { animation-delay: 4.35s; } .s5 .on { animation-delay: 5.8s; } .s6 .on { animation-delay: 7.2s; }
+    .num { font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #64748b; }
+    .name { font: 700 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #0f172a; letter-spacing: .5px; }
+    .note { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #475569; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .run { stroke-dashoffset: 0; } .on { opacity: 1; } }
+  </style>
+  <rect width="1200" height="170" rx="16" fill="#f8fafc"/>
+  <line class="track" x1="100" y1="62" x2="1100" y2="62"/>
+  <line class="run" x1="100" y1="62" x2="1100" y2="62"/>
+
+  <g class="s1" transform="translate(100 62)"><circle class="stage" r="24"/><circle class="on" r="24"/><text class="num" text-anchor="middle" y="5">01</text><text class="name" text-anchor="middle" y="58">Scope</text><text class="note" text-anchor="middle" y="80">the real problem</text></g>
+  <g class="s2" transform="translate(300 62)"><circle class="stage" r="24"/><circle class="on" r="24"/><text class="num" text-anchor="middle" y="5">02</text><text class="name" text-anchor="middle" y="58">Plan</text><text class="note" text-anchor="middle" y="80">contracts &amp; limits</text></g>
+  <g class="s3" transform="translate(500 62)"><circle class="stage" r="24"/><circle class="on" r="24"/><text class="num" text-anchor="middle" y="5">03</text><text class="name" text-anchor="middle" y="58">Build</text><text class="note" text-anchor="middle" y="80">agents in parallel</text></g>
+  <g class="s4" transform="translate(700 62)"><circle class="stage" r="24"/><circle class="on" r="24"/><text class="num" text-anchor="middle" y="5">04</text><text class="name" text-anchor="middle" y="58">Verify</text><text class="note" text-anchor="middle" y="80">tests, not trust</text></g>
+  <g class="s5" transform="translate(900 62)"><circle class="stage" r="24"/><circle class="on" r="24"/><text class="num" text-anchor="middle" y="5">05</text><text class="name" text-anchor="middle" y="58">Review</text><text class="note" text-anchor="middle" y="80">human in the loop</text></g>
+  <g class="s6" transform="translate(1100 62)"><circle class="stage" r="24"/><circle class="on" r="24"/><text class="num" text-anchor="middle" y="5">06</text><text class="name" text-anchor="middle" y="58">Ship</text><text class="note" text-anchor="middle" y="80">with evidence</text></g>
+</svg>
